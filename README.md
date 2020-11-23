@@ -28,6 +28,8 @@ example of usage:
 _mvn clean compile exec:java -Dexec.mainClass="com.bobkov.App" -Dexec.args="http://www.homecredit.ru /tmp 2"_
 
 
+Crawler logs information messages in console. The result xml will be written in file: OUTPUT_PATH/crawl_result.xml 
+
 # Future improvements
 
 * use http client (apache http client, ok http client, etc) instead of jsoup url connection. It's more configurable
