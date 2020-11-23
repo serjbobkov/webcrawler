@@ -1,6 +1,6 @@
 # Overview
 It's a simple web crawler in a Java language. 
-Crawler limited to a one domain name, it visits all pages within the domain, but doen't follow the links to external sites such as Google or Twitter.
+Crawler limited to a one domain name, it visits all pages within the domain, but doesn't follow the links to external sites such as Google or Twitter, it works in a multithread mode.
 
 The output is a structured xml document.
 
