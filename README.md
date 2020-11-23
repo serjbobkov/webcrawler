@@ -28,7 +28,6 @@ example of usage:
 _mvn clean compile exec:java -Dexec.mainClass="com.bobkov.App" -Dexec.args="http://www.homecredit.ru /tmp 2"_
 
 
-
 #Future improvements
 
 * use http client (apache http client, ok http client, etc) instead of jsoup url connection. It's more configurable
