@@ -8,7 +8,7 @@ For parsing pages application uses JSoup library https://jsoup.org/ .
 
 For generating xml it uses Jackson FasterXML library https://github.com/FasterXML/jackson .
 
-#How to run
+# How to run
 
 It uses Maven for build project.
 
@@ -28,7 +28,7 @@ example of usage:
 _mvn clean compile exec:java -Dexec.mainClass="com.bobkov.App" -Dexec.args="http://www.homecredit.ru /tmp 2"_
 
 
-#Future improvements
+# Future improvements
 
 * use http client (apache http client, ok http client, etc) instead of jsoup url connection. It's more configurable
 * use configurable parser (for example on SAX) instead of JSoup, because it uses DOM model
