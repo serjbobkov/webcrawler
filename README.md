@@ -37,5 +37,6 @@ _mvn clean compile exec:java -Dexec.mainClass="com.bobkov.App" -Dexec.args="http
 * add configuration for crawl speed, make some imitation of real user
 * add possibility to use scripts for authentification
 * add possibility to use additional ssl certificates
+* add tests
 
 
